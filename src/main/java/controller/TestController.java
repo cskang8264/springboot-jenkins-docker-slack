@@ -16,7 +16,7 @@ public class TestController {
 
     @GetMapping("/1")
     public String testResponse() {
-        return "hihi";
+        return "jenkins test";
     }
 
 
