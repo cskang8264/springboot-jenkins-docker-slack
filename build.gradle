@@ -18,9 +18,12 @@ repositories {
     mavenCentral()
 }
 
-task print() {
+
+task printBuildComplete() {
     doLast {
         println "github push complete!!!!"
+        println ""
+        println 'Bulied Date: ' + new Date()
     }
 }
 
