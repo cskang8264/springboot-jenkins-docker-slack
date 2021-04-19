@@ -19,3 +19,5 @@
 ![image](https://user-images.githubusercontent.com/41417504/115199494-3a15b200-a12e-11eb-9800-ca629cd05f86.png)
 ### webhooks 설정
 1. repositoy home에서 settings -> webhooks -> Add webhook
+2. 하지만, 여기서 localhost를 입력하게 되면 Github 서버의 localhost로 인식하게 되니, 젠킨스가 외부 IP를 가지게 해야합니다. 이를 위해 ngrok 설치
+
