@@ -21,7 +21,7 @@ repositories {
 
 task printBuildComplete() {
     doLast {
-        println "github push complete!!!!@@"
+        println "github push complete!!!!@@@@"
         println ""
         println 'Bulied Date: ' + new Date()
     }

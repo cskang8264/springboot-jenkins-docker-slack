@@ -1,0 +1,14 @@
+version: 0.0
+os: linux
+
+files:
+  - source: /
+    destination: /home/ec2-user
+
+hooks:
+  ApplicationStop:
+    - location: Script/kill_process.sh
+  BeforeInstall:
+    - locaiton: Script/remove_before.shj
+  ApllicationStart:
+    - location: Script/run_process.sh
